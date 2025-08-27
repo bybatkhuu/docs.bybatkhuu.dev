@@ -1,4 +1,4 @@
-site_name: bybatkhuu's docs
+site_name: bybatkhuu's Docs
 site_description: "This is bybatkhuu's documentation, wiki, manuals, tips and blog."
 site_url: https://docs.bybatkhuu.dev
 repo_name: bybatkhuu/docs.bybatkhuu.dev
@@ -33,22 +33,22 @@ theme:
     - content.code.annotate
   palette:
     - media: "(prefers-color-scheme)"
-      primary: black
-      accent: black
+      primary: lime
+      accent: lime
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: white
-      accent: white
+      primary: lime
+      accent: lime
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: black
+      primary: lime
+      accent: lime
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -133,4 +133,4 @@ extra:
       link: https://x.com/bybatkhuu
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/bybatkhuu
-copyright: Copyright &copy; 2025 bybatkhuu
+copyright: Copyright &copy; 2025 - Batkhuu Byambajav

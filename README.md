@@ -1,4 +1,4 @@
-# bybatkhuu's docs
+# bybatkhuu's Docs
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/bybatkhuu/docs.bybatkhuu.dev/4.publish-docs.yml?logo=GitHub)](https://github.com/bybatkhuu/docs.bybatkhuu.dev/actions/workflows/4.publish-docs.yml)
@@ -96,24 +96,6 @@ mkdocs build
 ls -al ./site
 ```
 
-### 7. 🚀 Deploy the documentation
-
-```sh
-# Copy the generated HTML files to the web server:
-cp -r ./site/* /var/www/docs.bybatkhuu.dev/public
-# Or use rsync:
-rsync -av --delete ./site/ /var/www/docs.bybatkhuu.dev/public/
-
-# Or deploy the documentation to GitHub Pages (default branch: gh-pages) of this repository:
-mkdocs gh-deploy --force
-# Or use mike with versioning:
-_major_minor_version="$(./scripts/get-version.sh | cut -d. -f1-2)"
-mike deploy -p -u ${_major_minor_version} latest
-mike set-default -p latest
-# Or:
-./scripts/build.sh -p
-```
-
 👍
 
 ---
@@ -128,6 +110,5 @@ mike set-default -p latest
 - <https://github.com/jimporter/mike>
 - <https://mkdocstrings.github.io>
 - <https://lukasgeiter.github.io/mkdocs-awesome-nav>
-- <https://oprypin.github.io/mkdocs-literate-nav>
 - <https://github.com/bharel/mkdocs-render-swagger-plugin>
 - <https://blueswen.github.io/mkdocs-swagger-ui-tag>
